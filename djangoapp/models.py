@@ -30,5 +30,32 @@ def __str__(self):
     return self.name
 
 # <HINT> Create a plain Python class `CarDealer` to hold dealer data
+class CarDealer:
+    def_init_(self,address,city,full_name,id,long,short_name,st,state,zip):
+    self.address = address # Dealer Address
+    self.city = city # Dealer City
+    self.full_name = full_name # Dealer Fullname
+    self.id=id #Dealer ID
+    self.lat=lat # Location lat
+    self.long=long # Location long
+    self.short_name=short_name # Dealer Shortname
+    self.st=st # Dealer State
+    self.zip=zip #Zip
+    self.idx=0 
+def_str_(self):
+    return self.fullname 
 
 # <HINT> Create a plain Python class `DealerReview` to hold review data
+class DealerReview:
+   def_init_(self,name,dealership,id,review,purchase, purchase_date, year, car_make, car_model,):
+    self.name = name
+    self.dealership = dealership
+    self.id = id
+    self.review= review
+    self.purchase = purchase
+    self.purchase_date = purchase_date
+    self.review = review
+    self.short_name=short_name # Dealer Shortname
+  
+def_str_(self):
+    return "DEALER REVIEW:"+ self.review
